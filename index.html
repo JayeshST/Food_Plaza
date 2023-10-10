@@ -1,0 +1,153 @@
+<html>
+<head>
+	
+	<title> Food Plaza</title>
+	<link rel="stylesheet" type="text/css" href="custom.css">
+</head>
+<style>
+	
+
+	
+body{
+	background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.2)), url(dosa.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+
+}
+.fp{ margin-top: -80px; }
+#vego{
+	border-radius: 50%;
+	width: 80;
+	 margin-bottom: -180px; margin-left: 1250;
+	 margin-top: -80px
+}
+
+.nav0 tr  td{
+color: #ffff;
+text-decoration: none;
+font-size: 18px;
+
+}
+#aa:hover{
+background-color: orange;
+color: white;
+opacity: .5;
+}
+#bb:hover{
+background-color: royalblue;
+color: white;
+opacity: .5;
+}
+#cc:hover{
+background-color: limegreen;
+color: white;
+opacity: .5;
+}
+#dd:hover{
+background-color: hotpink;
+color: white;
+opacity: .5;
+}
+#ee:hover{
+background-color: yellow;
+color: white;
+opacity: .5;
+}
+#ff:hover{
+background-color: deepskyblue;
+color: white;
+opacity: .5;
+}
+
+</style>
+<body  >
+	<img src="foodplazalogo.png" id="fplogo">
+	<img src="vego.png" id="vego">
+
+
+	<script>
+		confirm("Welcome to Food Plaza...");
+
+	</script>
+
+
+	<h1 class="fp" style=color:red;  align="center" ><caption >FOOD PLAZA</caption></h1>
+
+
+	<form action="food plaza.html" method="">
+	
+	<table align="center" border="0" cellpadding="10px" cellspacing="10px" class="nav0">
+		
+		<tr id="aa">
+			<td  > Name-</td>
+			<td><input type="text" name="name" id="name" required placeholder="Enter Name"></td>
+
+		</tr>
+		<tr id="bb">
+		<td>Mobile No.-</td>
+		<td>
+			<input type="text" name=" mobno"id="mobno" required placeholder="Enter Mob.No.">
+		</td>
+		</tr>
+		<tr id="cc">
+			<td> Email Address -</td>
+		<td> 
+			<input type="text" name=" email" id="email" required placeholder="Enter Email Address">
+		</td></tr>
+		<tr id="dd">
+			<td>Gender -</td>
+			<td>Male:<input type="radio" name="gender" value="Male" required>
+				Female:<input type="radio" name="gender" value="Female"></td>
+		</tr>
+		<tr id="ee">
+			<td>Location -</td>
+			<td>
+				<select name="Location" id="Location" required >
+
+					<option>Location :</option>
+					<option>Faizpur</option>
+					<option>Savda</option>
+					<option>Bhusawal</option>
+					<option>Jalgaon</option>
+					<option>Nashik</option>
+					<option>Pune</option>
+					<option>Mumbai</option>
+					
+				</select>
+			</td>
+		</tr>
+
+		<tr id="ff">
+			<td>
+
+				Demand -
+			</td>
+			<td> 
+				Beverages :<input type="checkbox" name="Beverages" value="Beverages">
+				Startors :<input type="checkbox" name=" Starters" value="startors">
+				South Indians :<input type="checkbox" name="si" value="si">
+				Chinese : <input type="checkbox" name="chi" value="chi">
+				desserts :<input type="checkbox" name="des" value="des">
+				
+
+			</td>
+		</tr>
+		<tr> 
+			<td>
+				<input type="submit" name="submit" value="Submit">
+			</td>
+		<td>
+			<input type="reset" name="reset" value="Cancel">
+		</td>
+		</tr>
+	</table>
+	</form>
+
+	<marquee  height="80" behavior="sliding"  loop ="infinite">
+		<strong> Buy 3 items and get 50% off on 4th items*</strong>
+	</marquee>
+	
+	
+</body>
+</html>
